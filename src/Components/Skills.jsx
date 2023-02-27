@@ -17,8 +17,8 @@ function Skills() {
     <div className="Skills">
       <div className="circulo-skill">
         <AiFillHtml5 className="icon-skill" />
-        <div className="letra-skill">
-          <strong>HTML</strong>
+        <div >
+          <strong className="letra-skill">HTML</strong>
         </div>
       </div>
 
