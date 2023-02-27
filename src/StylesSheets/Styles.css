@@ -1,0 +1,243 @@
+:root {
+  --color-tittle: ;
+  --letter-title: ;
+  --color-green: #4d4b4b;
+  --hover: #f06d23;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 300px;
+  background: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+
+header .menu-vertical ul li a {
+  display: block;
+  margin: 25px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-vertical ul li {
+  border-bottom: 3px solid var(--color-green);
+}
+
+.menu-vertical ul li a:hover {
+  color: var(--hover);
+}
+
+.menu-vertical li {
+  list-style: none;
+}
+
+.bloque-container {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(0%, 0%);
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+.bloque {
+  margin: 20px;
+}
+
+.texto_page p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.boton button {
+  width: 250px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: var(--hover);
+  border-color: var(--hover);
+  color: #fff;
+  font-size: 20px;
+}
+
+.perfil img {
+  width: 60%;
+  height: 60%;
+  border-color: 90px solid var(--hover);
+}
+
+.Redes {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 10px;
+}
+
+.git {
+  width: 80%;
+  height: 80%;
+}
+
+.link,
+.twitt {
+  width: 60%;
+  height: 60%;
+}
+
+.circulo-redes:hover {
+  color: var(--hover);
+  border-color: var(--hover);
+}
+
+/* skills */
+
+.Skills-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+.Skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--hover);
+}
+
+.circulo-skill {
+  margin: 15px;
+  width: 140px;
+  height: 140px;
+  border-radius: 90%;
+  background-color: #282828;
+}
+
+.icon-skill {
+  margin: 20px;
+  width: 30%;
+  height: 30%;
+  color: var(--hover);
+}
+
+.letra-skill {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* briefcase */
+
+.Briefcase-Individual {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+
+.Brieff {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 10%;
+  left: 25%;
+
+}
+
+.Card-Brief {
+  background-color: #282828;
+  margin: 5%;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.header-Brief {
+  background-color: #cf540d;
+  text-align: left;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.header-Brief p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.brief-fecha {
+  margin: 10px;
+}
+
+.brief-fecha p {
+  text-align: left;
+  font-size: 15px;
+}
+
+.contenido-Brief {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-image {
+  width: 40%;
+  height: 40%;
+  margin: 10px;
+}
+
+.text-ind {
+  text-align: justify;
+  width: 600px;
+  margin: 20px;
+  font-size: 14px;
+}
+
+.boton-visual {
+  width: 100%;
+  height: 15%;
+  background-color: #cf540d;
+  border: #cf540d;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.icon-languajes{
+  display: flex;
+}
+
