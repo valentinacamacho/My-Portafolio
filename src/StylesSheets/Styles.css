@@ -209,7 +209,7 @@ header .menu-vertical ul li a {
 .Card-Brief {
   background-color: #282828;
   margin: 5%;
-  width: 40%;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -243,8 +243,8 @@ header .menu-vertical ul li a {
 }
 
 .foto-image {
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   margin: 10px;
 }
 
