@@ -1,6 +1,12 @@
 import React from "react";
 import "../StylesSheets/Styles.css";
 
+//icons 
+import { FaAmericanSignLanguageInterpreting } from "react-icons/fa";
+import { FaSquarespace } from "react-icons/fa";
+import { GiTechnoHeart } from "react-icons/gi";
+import { GiHummingbird } from "react-icons/gi";
+
 function Cards() {
   return (
 
@@ -11,7 +17,7 @@ function Cards() {
         <h4>Mis Servicios</h4>
       </div>
     <div className="servis-parrafo">
-      <p>Como desarrolladora web, me encuentro capacita para gestionar, construir soluciones tecnologicas.</p>
+      <p>Como desarrolladora web, me encuentro capacitada para gestionar, construir soluciones tecnologicas.</p>
     </div>
   </div>
   
@@ -19,7 +25,9 @@ function Cards() {
 
       <div className="flip-card">
         <div className="flip-card-inner">
-          <div className="flip-card-front"></div>
+          <div className="flip-card-front">
+          <FaAmericanSignLanguageInterpreting className="icon-think"/>
+          </div>
           <div className="flip-card-back">
             <p>
               Como desarrolladora tomo los proyectos de forma seria donde
@@ -32,7 +40,9 @@ function Cards() {
 
       <div className="flip-card">
         <div className="flip-card-inner">
-          <div className="flip-card-front"></div>
+          <div className="flip-card-front">
+            <GiTechnoHeart className="icon-think"/>
+          </div>
           <div className="flip-card-back">
             <p>
               Implemento una solucion web a un problema con buenas practicas,
@@ -44,7 +54,9 @@ function Cards() {
 
       <div className="flip-card">
         <div className="flip-card-inner">
-          <div className="flip-card-front"></div>
+          <div className="flip-card-front">
+            <FaSquarespace className="icon-think"/>
+          </div>
           <div className="flip-card-back">
             <p>
               Los diseños son hechos al 100% responsivo, donde el usuario podra
@@ -56,7 +68,9 @@ function Cards() {
 
       <div className="flip-card">
         <div className="flip-card-inner">
-          <div className="flip-card-front"></div>
+          <div className="flip-card-front">
+            <GiHummingbird className="icon-think"/>
+          </div>
           <div className="flip-card-back">
             <p>
               Brindo soluciones en medios digitales , ofrezco a los clientes

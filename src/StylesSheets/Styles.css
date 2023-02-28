@@ -340,6 +340,7 @@ header .menu-vertical ul li a {
 .flip-card-front {
   background-color: #282828;
   color: black;
+  border-radius: 12px;
 }
 
 .flip-card-back {
@@ -359,3 +360,9 @@ header .menu-vertical ul li a {
   width: 250px;
 }
 
+.icon-think{
+  margin-top: 35%;
+  color: #F06D23;
+  width: 30%;
+  height: 30%;
+}
